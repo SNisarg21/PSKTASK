@@ -1,0 +1,22 @@
+.card{
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 28px;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+    transition: transform .3s;
+}
+.card:hover{
+    transform: translateY(-7px);
+    transition: transform .3s;
+}
+img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+.h2{
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
